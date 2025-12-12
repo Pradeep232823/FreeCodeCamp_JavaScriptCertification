@@ -1,0 +1,13 @@
+console.log("Hello! I'm your coding fun fact guide!");
+let botName = "CodeBot";
+let botLocation = "JavaScript Land";
+let favoriteLanguage = "JavaScript";
+console.log("My name is " + botName + " and I live on " + botLocation + ".");
+console.log("My favorite programming language is " + favoriteLanguage + ".");
+let codingFact = favoriteLanguage + " was created in just 10 days!";
+console.log(codingFact);
+codingFact = favoriteLanguage + " is used to build both frontend and backend applications.";
+console.log(codingFact);
+codingFact = favoriteLanguage + " is one of the most popular languages in the world.";
+console.log(codingFact);
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
