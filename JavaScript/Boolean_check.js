@@ -1,0 +1,13 @@
+function booWho(bool){
+  if (bool===true || bool===false){
+    return true
+  } else {
+    return false
+  }
+}
+
+console.log(booWho(true))
+console.log(booWho(false))
+console.log(booWho(5))
+console.log(booWho("Hello"))
+console.log(booWho(5.5))
