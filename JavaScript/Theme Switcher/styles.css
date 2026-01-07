@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #eee;
+}
+
+#status {
+  margin-top: 12px;
+  min-height: 20px;
+  font-weight: 600;
+}
+
+.theme-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.theme-gray {
+  background-color: #666;
+  color: #fff;
+}
+
+.theme-orange {
+  background-color: orange;
+  color: #000;
+}
